@@ -1,0 +1,35 @@
+{
+  "name": "ip_email",
+  "version": "1.0.0",
+  "description": "Utility to send an email with public and private IP address(es) via sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "repl": "node --experimental-repl-await",
+    "test": "NODE_ENV=test jest --watch-all --runInBand",
+    "test-verbose": "NODE_ENV=test jest --watch-all --runInBand --verbose --expand"
+  },
+  "keywords": ["email ip address"],
+  "homepage": "https://github.com/mistersingh179/ip_email",
+  "author": "Miser Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.1",
+    "dotenv": "^8.2.0",
+    "public-ip": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "standard": {
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mistersingh179/ip_email"
+  }
+}
