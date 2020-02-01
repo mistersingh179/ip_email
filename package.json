@@ -10,7 +10,7 @@
     "test": "NODE_ENV=test jest --watch-all --runInBand",
     "test-verbose": "NODE_ENV=test jest --watch-all --runInBand --verbose --expand"
   },
-  "keywords": ["email ip address"],
+  "keywords": ["email ip address", "email ip", "email local ip", "email public ip", "ip email"],
   "homepage": "https://github.com/mistersingh179/ip_email",
   "author": "Miser Singh",
   "license": "MIT",

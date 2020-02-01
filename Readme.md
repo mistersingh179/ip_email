@@ -4,7 +4,7 @@ Sends an email out with the external and internal ip of the computer it ran on.
 
 ## Pre-requisites:
 
-`SENDGRID_API_KEY` & `EMAIL_ADDRESS` must be available as an environment variables.
+`SENDGRID_API_KEY` & `EMAIL_ADDRESS` must be available as environment variables.
 
 ## Usage:
 
@@ -28,7 +28,6 @@ The code above will result an email being send to `process.env.EMAIL_ADDRESS` wi
 ## Development Setup
 
 - git clone the package
-- from within package directory do `npm link`
  
 ## Todo:
 
