@@ -1,6 +1,6 @@
 {
   "name": "ip_email",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility to send an email with public and private IP address(es) via sendgrid",
   "main": "index.js",
   "bin": {
